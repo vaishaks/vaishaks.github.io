@@ -1,10 +1,25 @@
+@font-face {
+    font-family: 'Lane-Narrow';
+	src: url('../fonts/lanenar.ttf')  format('truetype');
+}      
 
+h1 {
+    font-family: "Lane-Narrow", Arial; 
+    font-size: 300%;
+    font-weight: 400;
+    color: #99f;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+h2 {
+    font-family: "Lane-Narrow", Arial; 
+    font-size: 200%; 
+    color: #777;
+} 
 
-
+#dp {
+    float: left;
+    margin: 10px;
+}
 
 
 
