@@ -54,12 +54,21 @@ h1 {
 h2 {
     font-family: "Lane-Narrow", Arial; 
     font-size: 200%; 
+    margin: 20px;
     color: #777;
 } 
 
 #dp {
     float: left;
     margin: 10px;
+}
+
+#social {
+    padding: 100px;
+}
+
+.social-ico {
+    margin: 5px;
 }
 
 .slide{
