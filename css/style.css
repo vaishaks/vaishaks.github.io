@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Lane-Narrow';
+	src: url('../fonts/lanenar.ttf')  format('truetype');
+} 
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../fonts/BEBAS___-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+
+.navigation{
+	font-family: 'BebasRegular';
+	position:fixed;
+	z-index:1;
+	top:20px;
+}
+
+.navigation li{
+	color:#333333;
+	display:block;
+	padding: 0 10px;
+	line-height:30px;
+	margin-bottom:2px;
+	font-weight:bold;
+	-webkit-transition: all .2s ease-in-out;
+	border-bottom:1px solid black;
+	text-align:left;
+	width:53px;
+}
+
+.navigation li:hover,.active{
+	font-size:25px;
+	cursor:pointer;
+	width:100px!important;
+}    
+
+h1 {
+    font-family: "Lane-Narrow", Arial; 
+    font-size: 300%;
+    font-weight: 400;
+    color: #99f;
+}
+
+h2 {
+    font-family: "Lane-Narrow", Arial; 
+    font-size: 200%; 
+    color: #777;
+} 
+
+#dp {
+    float: left;
+    margin: 10px;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+.wrapper{
+	width:960px;
+	height:200px;
+	margin:0 auto;
+	padding: 50px;
+	position:relative;
+}
+
+.slideno{
+	font-family: 'BebasRegular';
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:100px;
+	font-weight:bold;
+	color:#777;
+}
+
+.button{
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	background-color:#333333;
+	background-image:url(../img/arrow.png);
+}
+
+.button:hover{
+	background-color:#494949;
+	cursor:pointer;
+}
+
+
+

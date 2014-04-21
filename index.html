@@ -1,63 +1,79 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Vaishak Salin</title>
+		<meta name="description" content="Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">	
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script type="text/javascript" src="js/vendor/jquery.stellar.min.js"></script>
-        <script type="text/javascript" src="js/vendor/waypoints.min.js"></script>
-        <script type="text/javascript" src="js/vendor/jquery.easing.1.3.js"></script>  
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="js/waypoints.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	</head>
+
+	<body>
+		<!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your             browser</a> to improve your experience.</p>
         <![endif]-->
-        <article id="about">
-            <img id="dp" src="https://avatars0.githubusercontent.com/u/1407483" height="250" />
-            <h1>Vaishak Salin</h1>
-            <h2>Manipal Institute of Technology</h2>
-        </article>
-        <article id="projects">
-            <h2>Just a few projects that I've worked on.</h2>
-        </article>
-        <article id="contact">
-            <h2>Say hello!</h2>
-        </article>
-        <footer>
-            <p>&copy; Vaishak Salin 2014</p>
-        </footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+		<ul class="navigation">
+			<li data-slide="1">About</li>
+			<li data-slide="2">Projects</li>
+			<li data-slide="3">Contact</li>
+		</ul>	
+		<div class="slide" data-slide="1" data-stellar-background-ratio="0.5">
+			<div class="wrapper">
+				<article id="about">                        
+		                <img id="dp" src="https://avatars0.githubusercontent.com/u/1407483" height="250" />
+		                <h1>Vaishak Salin</h1>
+		                <h2>Manipal Institute of Technology</h2>
+		        </article>
+	        </div>
+			<a class="button" data-slide="2" title=""></a>
+			<span class="slideno">About</span>
+		</div><!--End Slide 1-->
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+		<div class="slide" data-slide="2" data-stellar-background-ratio="0.5">
+			<div class="wrapper">
+		        <article id="projects">
+		            <h2>Just a few projects that I've worked on.</h2>
+		        </article>
+	       	</div>
+			<a class="button" data-slide="3" title=""></a>
 
-        <script src="js/main.js"></script>
+		</div><!--End Slide 2-->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+		<div class="slide" data-slide="3" data-stellar-background-ratio="0.5">
+	        <div class="wrapper">  
+	            <article id="contact">
+	                <h2>Say hello!</h2>
+	            </article>		
+	        </div>
+		</div><!--End Slide 3-->
+
+	    <footer>
+	        <p>&copy; Vaishak Salin 2014</p>
+	    </footer>
+	    <script src="js/vendor/bootstrap.min.js"></script>
+
+	    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	    <script>
+	        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	        e.src='//www.google-analytics.com/analytics.js';
+	        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+	        ga('create','UA-XXXXX-X');ga('send','pageview');
+	    </script>	
+	</body>
 </html>
