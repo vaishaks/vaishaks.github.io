@@ -161,13 +161,17 @@ h3 {
 	cursor:pointer;
 }
 
+#go-up-container {
+    position:absolute;
+    top:13%;
+    left:87%;
+}    
+
 #go-up{
 	display:block;
 	width:76px;
 	height:76px;
-	position:absolute;
-	top:30px;
-	left:90%;
+	margin: 10px;
 	background-color:#EEE8E8;
 	background-image:url(../img/up.svg);
     opacity: 0.5;
@@ -186,9 +190,9 @@ h3 {
 
 #go-up-txt {
     opacity: 0.5;
-    position: absolute;
-    top: 16%;
-    right: 3%;
+    position: relative;
+    left: 43px;
+    top: 5px;
 }
 
 
