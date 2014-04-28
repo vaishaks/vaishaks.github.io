@@ -62,6 +62,7 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
+        console.log("click");
 
     });
 
